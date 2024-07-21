@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(45deg, grey, black);
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+}
+
+div.conteiner{
+    background-color: #32323288;
+    width: 350px;
+    height: 100%;
+    max-height: 600px;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px black;
+    
+    
+}
+
+h2.question{
+    font-size: 1.2rem;
+    font-weight:100;
+    color:#8445FF;
+    margin-top: 40px;    
+    text-align: center;
+    text-shadow: 2px 2px 10px black;
+
+    
+}
+
+/* Genero*/
+
+fieldset {
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+legend {
+    font-size: 1rem;
+    font-weight:400;
+    color:#FFF;    
+    font-size: 18px;
+    font-weight: 100;
+    text-shadow: 2px 2px 10px black;
+}
+   
+    
+.f-dados{
+    
+    border-radius: 20px;
+    width: 100%;
+    max-width: 350px;
+
+}
+
+.about, label, input{
+    font-size: 1rem;
+    color: #050505;
+    border: none;   
+    font-weight: 100;
+    margin: 5px;
+    padding: 10px;
+}
+
+label{
+    color: #fdfdfd;
+    text-shadow: 2px 2px 10px black;
+}
+
+
+
+.about input:focus{
+    outline: none;
+    border-color: #8445FF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.f-etaria, .school, .r-familiar{
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1px;
+    padding: 5px;
+}
+
+
+/* estilização do link imagem */
+.arrow img{
+    display: block;
+    background-color: #8445FF;
+    width: 15%;
+    border-radius: 50%;
+    margin: 3px auto;
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+
+.arrow img:hover{
+    opacity: 0.5;
+}
+.arrow img:active{
+    background-color: black;
+}
+/* fim da estilização do link imagem */
+
+p{
+    color: #fff;
+    text-align: center;
+    margin: 15px;    
+    text-shadow: 2px 2px 10px black;
+}
+
+/* rodape do conteiner */
+
+footer img{
+    display: block;
+    margin: 0 auto;
+    padding: px;
+    width: 100%;
+    max-width: 150px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
